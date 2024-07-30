@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario Especial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cuestionario Especial</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. ¿Cuál es mi color favorito?</p>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="question">
+                <p>2. ¿Cuál es mi lugar preferido para pasar el tiempo?</p>
+                <input type="text" id="q2" name="q2">
+            </div>
+            <div class="question">
+                <p>3. ¿Qué es lo que me gusta hacer juntos?</p>
+                <input type="text" id="q3" name="q3">
+            </div>
+            <div class="question">
+                <p>4. ¿Cuál es mi comida favorita?</p>
+                <input type="text" id="q4" name="q4">
+            </div>
+            <div class="question">
+                <p>5. ¿Cuál es mi película favorita?</p>
+                <input type="text" id="q5" name="q5">
+            </div>
+            <button type="button" onclick="submitQuiz()">Enviar</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>¡Gracias por responder!</h2>
+            <p id="message"></p>
+            <button id="show-card" class="hidden" onclick="showCard()">Leer la Cartita</button>
+            <button id="retry-quiz" class="hidden" onclick="retryQuiz()">Inténtalo de nuevo</button>
+        </div>
+        <div id="card" class="hidden">
+            <h2>¡Feliz Día de la Novia!</h2>
+            <p>Esta es una cartita especial que escribí para ti:</p>
+            <p id="card-message"></p>
+            <button onclick="hideCard()">Cerrar</button>
+            <button id="show-video" class="hidden" onclick="showVideo()">Ver Video</button>
+        </div>
+        <div id="video-container" class="hidden">
+            <video id="video" width="600" controls>
+                <source src="video/novia.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <button onclick="hideVideo()">Cerrar Video</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

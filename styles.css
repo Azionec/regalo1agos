@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondoi/fondo2.jpg'); /* Reemplaza con la ruta a tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la página */
+    background-position: center; /* Centra la imagen en la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra el contenedor horizontalmente */
+    align-items: center;    /* Centra el contenedor verticalmente */
+    height: 100vh;
+}
+
+.container {
+    background-image: url('fondoi/fondo3.jpg'); /* Reemplaza con la ruta a tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-color: #fff; /* Color de fondo para el contenedor, si la imagen no cubre toda el área */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;             /* Ajusta el ancho del contenedor */
+    max-width: 600px;       /* Mantén el ancho máximo del contenedor */
+    text-align: center;     /* Centra el texto del contenedor */
+}
+
+.question {
+    text-align: left;       /* Alinea el texto de las preguntas a la izquierda */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff66b2;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    text-align: center; /* Alinea el texto del resultado al centro */
+}
+
+#result h2 {
+    color: #ff66b2;
+}
+
+#card {
+    background: #fffbf2; /* Fondo personalizado para la cartita */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#card h2 {
+    color: #ff66b2;
+}
+
+#card button {
+    background-color: #ff66b2;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#card button:hover {
+    background-color: #ff3385;
+}
+
+#video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#video-container video {
+    width: 100%; /* Ajusta el ancho del video para que sea responsive */
+    max-width: 600px; /* Ajusta el ancho máximo del video */
+}
