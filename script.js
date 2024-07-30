@@ -12,7 +12,7 @@ function submitQuiz() {
         q2: 'casita',
         q3: 'charlar',
         q4: 'ceviche',
-        q5: 'Kingsman'
+        q5: 'Kingsman',
     };
 
     // Comprobar respuestas
