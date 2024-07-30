@@ -30,7 +30,7 @@ function submitQuiz() {
         <br>
         <strong>2. Mi lugar preferido para pasar el tiempo:</strong> ${q2}
         <br>
-        <strong>3. Lo que más te gusta hacer juntos:</strong> ${q3}
+        <strong>3. Lo que más me gusta hacer juntos:</strong> ${q3}
         <br>
         <strong>4. Mi comida favorita:</strong> ${q4}
         <br>
