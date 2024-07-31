@@ -8,10 +8,10 @@ function submitQuiz() {
 
     // Respuestas correctas 
     const correctAnswers = {
-        q1: 'negro',
-        q2: 'casita',
-        q3: 'charlar',
-        q4: 'ceviche',
+        q1: 'Negro',
+        q2: 'Casa',
+        q3: 'Charlar',
+        q4: 'Ceviche',
         q5: 'Kingsman',
     };
 
