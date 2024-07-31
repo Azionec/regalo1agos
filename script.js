@@ -8,11 +8,11 @@ function submitQuiz() {
 
     // Respuestas correctas 
     const correctAnswers = {
-        q1: 'Negro',
-        q2: 'Casa',
-        q3: 'Charlar',
-        q4: 'Ceviche',
-        q5: 'Kingsman',
+        q1: 'negro',
+        q2: 'casa',
+        q3: 'charlar',
+        q4: 'ceviche',
+        q5: 'kingsman',
     };
 
     // Comprobar respuestas
